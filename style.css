@@ -1,0 +1,63 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:  rgb(68, 185, 152);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.profile-card {
+    text-align: center;
+    padding: 30px;
+    background-color: aquamarine;
+    border: 4px solid rgb(5, 121, 123);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.profile-photo {
+    max-width: 150px;
+    border-radius: 100px;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.profile-name {
+    font-size: 36px;
+    margin: 0;
+}
+
+.profile-info {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.profile-university,
+.profile-major {
+    font-weight: bold;
+    color: #333;
+}
+
+.profile-hobbies {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.profile-hobbies li {
+    margin-bottom: 5px;
+}
+
+.profile-quote {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 24px;
+    color: #888;
+}
